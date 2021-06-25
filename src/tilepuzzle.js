@@ -8,7 +8,8 @@ class tilepuzzle extends Component{
             matrix : this.createRandomMatrix(),
             // matrix :  [[1,2,3],[4,5,6],[7,0,8]],
             // coordinatesOfEmpty : []
-            MoveCount : 0
+            MoveCount : 0,
+            userName : ""
         }
     }
 
@@ -31,6 +32,15 @@ class tilepuzzle extends Component{
 
 
     componentDidMount(){
+        const Name = prompt("Hey, What's Your Name?");
+        if(!Name){ 
+            alert("Empty Name!");
+            window.location.reload();
+        }
+        this.setState({
+            userName : Name
+        });
+        alert("Hey "+ Name +", Just relax and try to solve this puzzle :) ");
         // this.settingEmptyCoordinates();
         this.DisplayBoxes();
         this.addEventListnerToBoxes();
@@ -62,8 +72,8 @@ class tilepuzzle extends Component{
     checkResult(){
 
         if(JSON.stringify(this.state.matrix) === JSON.stringify([[1,2,3],[4,5,6],[7,8,0]])) {
-            alert("Voila,You have completed the puzzle in " + this.state.MoveCount + " moves :)");
-            setTimeout(() => window.location.reload(),4000);
+            alert("Voila " +this.state.userName + ",You have completed the puzzle in " + this.state.MoveCount + " moves :)");
+            setTimeout(() => window.location.reload(),20000);
         }
     }
 
