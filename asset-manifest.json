@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/tile-game/static/css/main.dc10300b.chunk.css",
+    "main.js": "/tile-game/static/js/main.8a4a4201.chunk.js",
+    "main.js.map": "/tile-game/static/js/main.8a4a4201.chunk.js.map",
+    "runtime-main.js": "/tile-game/static/js/runtime-main.7fcd6287.js",
+    "runtime-main.js.map": "/tile-game/static/js/runtime-main.7fcd6287.js.map",
+    "static/js/2.1a69cf18.chunk.js": "/tile-game/static/js/2.1a69cf18.chunk.js",
+    "static/js/2.1a69cf18.chunk.js.map": "/tile-game/static/js/2.1a69cf18.chunk.js.map",
+    "index.html": "/tile-game/index.html",
+    "static/css/main.dc10300b.chunk.css.map": "/tile-game/static/css/main.dc10300b.chunk.css.map",
+    "static/js/2.1a69cf18.chunk.js.LICENSE.txt": "/tile-game/static/js/2.1a69cf18.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7fcd6287.js",
+    "static/js/2.1a69cf18.chunk.js",
+    "static/css/main.dc10300b.chunk.css",
+    "static/js/main.8a4a4201.chunk.js"
+  ]
+}
