@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Tilegame from './tilepuzzle';
+import TileGame from './tile-puzzle';
 
 ReactDOM.render(
-    <Tilegame />,
+    <TileGame />,
   document.getElementById('root')
 );
